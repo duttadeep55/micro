@@ -11,4 +11,9 @@ public class HelloController {
         return "Greetings from Kloud9!";
     }
 
+    @RequestMapping("/version")
+    public String getVersion() {
+        return "1.0";
+    }
+
 }
