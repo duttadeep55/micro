@@ -1,6 +1,6 @@
 output=$(curl http://demo-ecs-dev-elb-257222220.us-west-2.elb.amazonaws.com/)
 flag="Failed"
-if [[ $output == "Greetings from Kloud9!" ]]
+if [[ $output == "Hello, HUDSON BAY !!" ]]
 then
  flag="Passed"
 else
