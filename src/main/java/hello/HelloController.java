@@ -8,12 +8,12 @@ public class HelloController {
 
     @RequestMapping("/")
     public String index() {
-        return "Hello, HUDSON BAY V2!!";
+        return "Hello, HUDSON BAY !!";
     }
 
     @RequestMapping("/version")
     public String getVersion() {
-        return "2.0";
+        return "3.0";
     }
 
 }
