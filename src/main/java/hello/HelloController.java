@@ -13,7 +13,7 @@ public class HelloController {
 
     @RequestMapping("/version")
     public String getVersion() {
-        return "3.0";
+        return "4.0";
     }
 
 }
