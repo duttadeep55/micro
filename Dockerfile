@@ -1,8 +1,8 @@
 FROM openjdk:8
-RUN mkdir -p /hudson/configs/application/
-RUN mkdir -p /hudson/configs/environment/
-RUN mkdir -p /hudson/configs/secret/
-RUN mkdir -p /hudson/jar/
-RUN cd /hudson/jar/
+RUN mkdir -p /turorial/configs/application/ \
+    && mkdir -p /tutorial/configs/environment/ \
+    && mkdir -p /tutorial/configs/secret/ \
+    && mkdir -p /turorial/jar/ \
+    && cd /tutorial/jar/ \
 COPY_COPYFOLDERS
 RUN_DOCKER_BUILD
