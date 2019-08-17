@@ -1,4 +1,4 @@
-# micro ~ Sampleh Springboot App
+# micro ~ Sample Springboot App
 
 
 #### Step To build Maven
